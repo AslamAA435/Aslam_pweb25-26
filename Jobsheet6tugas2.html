@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="margin: 50px;">
+    <tr>
+        <td>
+            <img src="OIP.webp" style="width: 120px; height: 120px; float: inline-start;">
+        </td>
+        <td>
+            <h2 style="font-family: Arial; text-align: center;margin:5px ; color: blue;">FORMULIR PENDAFTARAN</h2>
+            <h3 style="font-family: Arial; text-align: center;margin:3px ; color: blue;">CALON SISWA/SISWI MTs ..................<br>
+            TAHUN PELAJARAN 2016/2017</h3>
+            <p style="font-family: Arial; text-align: center;font-size:12px; color: blue;">
+                Sekretariat : Jln. ............. Kode Pos : ... <br>
+                Email : ..........@yahoo.co.id | Website : http://...........com</p>
+         </td>
+    </tr>
+    <hr style="border: 2.5px solid blue;">
+    <table border="1" align="right" cellpadding="10" style="border-collapse: collapse;">
+    <tr>
+      <td>No. Pendaftaran</td>
+    </tr>
+    <tr>
+        <td colspan="3" height="70"></td>
+    </tr>
+
+    <form>
+    <u style="font-family: Arial; font-weight: bold; margin-top: 15px;">A. DATA PRIBADI CALON SISWA*)</u>
+         <table>
+        <tr>
+            <td><dd><label for="nama_lengkap">1.Nama lengkap</label></td></dd>
+                <td>:</td>
+            <td><input name="nama_lengkap" id="nama_lengkap" style="width: 400px;"></td>
+        </tr>
+        <br>
+        <tr>
+            <td><dd><label for="jenis_kelamin">2.Jenis Kelamain</label></td></dd>
+                <TD>:</TD>
+            <td><INPUT type="radio" name="jenis_kelamin" id="laki-laki">Laki-laki
+            <INPUT type="radio" name="jenis_kelamin" id="perempuan">Perempuan</td>
+        </tr>
+        <tr>
+            <td><dd><label for="ttl">3.Tempat/Tgl Lahir</label></td></dd>
+            <td>:</td>
+            <td><input name="ttl" id="ttl" style="width: 200px;">
+            <input type="date" name="tanggal_lahir" id="tanggal_lahir"></td>
+        </tr>
+        <tr>
+            <td><dd><label for="alamat">4.Alamat</label></td></dd>
+            <td>:</td>
+            <td><textarea name="alamat" id="alamat" cols="42" rows="3"></textarea></td>
+        </tr>
+        <tr></tr>
+        <td><dd><label for="anak_ke">5.Anak Ke</label></td></dd>
+        <td>:</td>
+        <td><input type="number" name="anak_ke" id="anak_ke">
+        dari<input type="number" name="anak_ke" id="anak_ke">
+        bersaudara</td>
+        </table>
+        <br>
+        <br>
+        <form>
+         <u style="font-family: Arial; font-weight: bold; margin-top: 15px;">B. DATA ORANGTUA/WALI CALON SISWA**)</u>
+            <table>
+        <tr>
+            <td><dd><label for="nama_ayah">1.Nama Ayah</label></td></dd>
+            <td>:</td>  
+            <td><input name="nama_ayah" id="nama_ayah" style="width: 420px;"></td>
+        </tr>
+        <tr>
+            <td><dd><label for="nama_ibu">2.Nama Ibu</label></td></dd>
+            <td>:</td>  
+            <td><input name="nama_ibu" id="nama_ibu" style="width: 420px;"></td>    
+        </tr>
+        <tr>
+            <td><dd><label for="pekerjaan_ayah">3.Pekerjaan Ayah</label></td></dd>
+            <td>:</td>  
+            <td><input name="pekerjaan_ayah" id="pekerjaan_ayah" style="width: 420px;"></td>
+        </tr>
+        <tr>
+            <td><dd><label for="pekerjaan_ibu">4.Pekerjaan Ibu</label></td></dd>
+            <td>:</td>  
+            <td><input name="pekerjaan_ibu" id="pekerjaan_ibu" style="width: 420px;"></td>
+        </tr>
+        <tr>
+            <td><dd><label for="alamat_ortu">5.Alamat</label></td></dd>
+            <td>:</td>  
+            <td><textarea name="alamat_ortu" id="alamat_ortu" cols="44" rows="3"></textarea></td>
+        </tr>
+        <tr>
+            <td><dd><label for="no_tlp">6.No.Telp/HP</label></td></dd>
+            <td>:</td>  
+            <td><input type="number" name="no_tlp" id="no_tlp" style="width: 420px;"></td>
+        </tr>
+        <tr>
+            <td><dd><label for="nama_wali">7.Nama Wali</label></td></dd>
+            <td>:</td>  
+            <td><input name="nama_wali" id="nama_wali" style="width: 420px;"></td>
+        </tr>
+        <tr>
+            <td><dd><label for="pekerjaan_wali">8.Pekerjaan Wali</label></td></dd>
+            <td>:</td>  
+            <td><input name="pekerjaan_wali" id="pekerjaan_wali" style="width: 420px;"></td>
+        </tr>
+        <tr>
+            <td><dd><label for="alamat_wali">9.Alamat Wali</label></td></dd>
+            <td>:</td>  
+            <td><textarea name="alamat_wali" id="alamat_wali" cols="44" rows="3"></textarea></td>
+        </tr>
+            </table>
+        </form>
+        <br>
+        <br>
+        <form>
+            <table>
+                <u style="font-family: Arial; font-weight: bold; margin-top: 15px;">C. ASAL SEKOLAH</u>
+        <tr>
+            <td><dd><label for="nama_sekolah">1.Nama Sekolah</label></td></dd>
+            <td>:</td>  
+            <td><input name="nama_sekolah" id="nama_sekolah" style="width: 420px;"></td>
+        </tr>
+        <tr>
+            <td><dd><label for="status_sekolah">2.Status Sekolah</label></td></dd>
+            <td>:</td>  
+            <td><input type="radio" name="status_sekolah" id="negeri">Negeri
+            <input type="radio" name="status_sekolah" id="swasta">Swasta</td>
+        </tr>
+        <tr>
+            <td><dd><label for="alamat_sekolah">3.Alamat Sekolah</label></td></dd>
+            <td>:</td>  
+            <td><textarea name="alamat_sekolah" id="alamat_sekolah" cols="43" rows="3"></textarea></td>
+        </tr>
+        <tr>
+            <td><dd><label for="nisn">4.NISN</label></td></dd>
+            <td>:</td>  
+            <td><input  type="number" name="nisn" id="nisn" ></td>
+        </tr>
+        <tr>
+            <td><dd><label for="no_peserta_un">5.Nomor Peserta UN SD</label></td></dd>
+            <td>:</td>  
+            <td><input  type="number" name="no_peserta_un" id="no_peserta_un" ></td>
+        </tr>
+            </table>
+        </form>
+        <br>
+        <br>
+        <form>
+            <table>
+                <u style="font-family: Arial; font-weight: bold; margin-top: 15px;">D. DATA SKHU/IJAZAH</u>
+                <tr>
+            <td><dd><label for="no_skhu">1.Nomor SKHU</label></td></dd>
+            <td>:</td>  
+            <td><input type="number" name="no_skhu" id="no_skhu" ></td>
+                </tr>
+                <tr>
+            <td><dd><label for="jumlah_nilai_un">2.Jumlah Nilai UN</label></td></dd>
+            <td>:</td>
+            <td><input type="number" name="jumlah_nilai_un" id="jumlah_nilai_un" ></td>
+                </tr>
+                <tr>
+            <td><dd><label for="nilai_rata_un">3.Nilai Rata-rata UN</label></td></dd>
+            <td>:</td>
+            <td><input type="number" name="nilai_rata_un" id="nilai_rata_un" ></td>
+                </tr>
+            </table>
+    </form>
+    </p>
+    <div style="display:flex; justify-content:space-between; margin-top:30px;">
+        <div style="text-align:center; width:30%;">
+            Mengetahui,<br>
+            Orangtua/Wali<br><br><br><br>
+            (....................)
+        </div>
+        <div style="text-align:center; width:30%;">
+            ..............., 2016<br>
+            Calon Siswa<br><br><br><br>
+            (....................)
+        </div>
+        <div style="text-align:center; width:30%;">
+            Petugas<br><br><br><br>
+            (....................)
+        </div>
+    </div>
+     <p style="font-size:16px; margin-top:20px;">
+        <b>Keterangan:</b><br>
+        *) Diisi sesuai ijazah/SKHU<br>
+        **) Diisi jika tinggal bersama wali
+</body>
+</html>
